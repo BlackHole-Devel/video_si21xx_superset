@@ -4,7 +4,7 @@ This repository contains the SILABS_SUPERSET source code used to build DTV front
 
 This code can be used to support any configuration using the API-controlled Silicon Labs DTV demodulators.
 
-Refer to [<https://github.com/SiliconLabs/video_silabs_superset/blob/SILABS_SUPERSET/Si2183/Doc/USING_SILABS_SUPERSET.pdf> for details related to this code.
+Refer to [<https://github.com/SiliconLabs/video_si21xx_superset/blob/master/SILABS_SUPERSET/Si2183/Doc/USING_SILABS_SUPERSET.pdf> for details related to this code.
 
 ## Supported Silicon Labs DTV demodulators
 
