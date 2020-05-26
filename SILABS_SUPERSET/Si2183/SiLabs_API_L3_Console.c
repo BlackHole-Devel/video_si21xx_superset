@@ -473,9 +473,11 @@ unsigned int  IOD;
 #endif /* USB_Capability */
 unsigned int  div_a;
 unsigned int  div_b;
+signed   int  ter_tuner_address;
+signed   int  sat_tuner_address;
+signed   int  lnb_chip_address;
 #ifdef    TERRESTRIAL_FRONT_END
 signed   int  ter_tuner_code;
-signed   int  ter_tuner_address;
 signed   int  ter_tuner_index;
 #ifdef    DEMOD_DVB_T2
 signed   int  fef_mode;
@@ -486,9 +488,7 @@ signed   int  fef_level;
 #ifdef    SATELLITE_FRONT_END
 signed   int  lnb_code;
 signed   int  lnb_index;
-signed   int  lnb_chip_address;
 signed   int  sat_tuner_code;
-signed   int  sat_tuner_address;
 signed   int  sat_tuner_index;
 signed   int  sat_tuner_sub;
 signed   int  spectrum_inversion;
